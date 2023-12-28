@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todlist</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6d0d2e039a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>TO-Do List <i class="fa fa-list" aria-hidden="true"></i></h1>
+            <div class="input-div">
+                <input type="text" placeholder="Enter Task" class="input-box" id="input_box" />
+                <button class="add-btn" id="add_btn" onclick="addTask()">Add</button>
+            </div>
+
+            <div class="list">
+                <ul id="task_data">
+                    <li>
+                        <div>
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+
+                            Task 1
+                        </div>
+
+                        <i class="fa fa-trash icon" aria-hidden="true"></i>
+
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            Task 2
+                        </div>
+
+                        <i class="fa fa-trash icon" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
